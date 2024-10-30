@@ -1,0 +1,28 @@
+:root {
+  font-size: 16px;
+  --golden-color: #f9d81a;
+  --Sacramento-ff: Sacramento, sans-serif;
+  --sans-serif-ff: "Poppins", sans-serif;
+  --fw-1: 900;
+  --fw-2: 800;
+  --fw-3: 700;
+  --fs-2: calc(1.313rem + 1vw);
+}
+/* relative units  rem --> root element, em --> parent, % --> parent */
+/* rest  */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #19191a;
+}
+/* css func calc(1.313rem + 1vw)  */
+/* Common Classes */
+h3.section-title {
+  font-family: var(--sans-serif-ff);
+  font-weight: var(--fw-2);
+  font-size: var(--fs-2);
+  color: var(--golden-color);
+}
